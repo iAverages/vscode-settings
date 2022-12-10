@@ -1,0 +1,95 @@
+{
+    "terminal.integrated.defaultProfile.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#AB47BC",
+        "activityBar.activeBorder": "#AB47BC",
+        "list.activeSelectionForeground": "#AB47BC",
+        "list.inactiveSelectionForeground": "#AB47BC",
+        "list.highlightForeground": "#AB47BC",
+        "scrollbarSlider.activeBackground": "#AB47BC50",
+        "editorSuggestWidget.highlightForeground": "#AB47BC",
+        "textLink.foreground": "#AB47BC",
+        "progressBar.background": "#AB47BC",
+        "pickerGroup.foreground": "#AB47BC",
+        "tab.activeBorder": "#AB47BC",
+        "notificationLink.foreground": "#AB47BC",
+        "editorWidget.resizeBorder": "#AB47BC",
+        "editorWidget.border": "#AB47BC",
+        "settings.modifiedItemIndicator": "#AB47BC",
+        "settings.headerForeground": "#AB47BC",
+        "panelTitle.activeBorder": "#AB47BC",
+        "breadcrumb.activeSelectionForeground": "#AB47BC",
+        "menu.selectionForeground": "#AB47BC",
+        "menubar.selectionForeground": "#AB47BC",
+        "editor.findMatchBorder": "#AB47BC",
+        "selection.background": "#AB47BC40",
+        "statusBarItem.remoteBackground": "#AB47BC"
+    },
+    "workbench.startupEditor": "readme",
+    "git.enableSmartCommit": true,
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "workbench.tree.indent": 25,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+        "**/node_modules/": true,
+        "**/vendor/": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 120,
+    "html.format.indentInnerHtml": true,
+    "html.format.unformatted": "",
+    "editor.detectIndentation": true,
+    "typescript.validate.enable": true,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontLigatures": true,
+    "eslint.packageManager": "yarn",
+    "npm.packageManager": "yarn",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.unicodeHighlight.allowedCharacters": {
+        "️": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "files.associations": {
+        "*.yml": "dockercompose"
+    },
+    "prettier.proseWrap": "always",
+    "editor.tokenColorCustomizations": {},
+    "editor.stickyScroll.enabled": true,
+    "prettier.bracketSameLine": true,
+    "editor.inlineSuggest.enabled": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.find.addExtraSpaceOnTop": false,
+    "files.eol": "\n",
+    "files.watcherExclude": {
+        "**/vendor/**": true
+    },
+    "workbench.settings.openDefaultSettings": true,
+    "window.doubleClickIconToClose": true,
+    "window.titleSeparator": " | ",
+    "explorer.excludeGitIgnore": true,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        }
+    },
+    "telemetry.telemetryLevel": "off",
+    "gitlens.showWelcomeOnInstall": false,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.defaultGravatarsStyle": "identicon"
+}
