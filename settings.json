@@ -35,7 +35,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "files.exclude": {
         "**/node_modules/": true,
-        "**/vendor/": true
+        "vendor/": true
     },
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -81,7 +81,6 @@
     "workbench.settings.openDefaultSettings": true,
     "window.doubleClickIconToClose": true,
     "window.titleSeparator": " | ",
-    "explorer.excludeGitIgnore": true,
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
@@ -91,5 +90,6 @@
     "telemetry.telemetryLevel": "off",
     "gitlens.showWelcomeOnInstall": false,
     "gitlens.showWhatsNewAfterUpgrades": false,
-    "gitlens.defaultGravatarsStyle": "identicon"
+    "gitlens.defaultGravatarsStyle": "identicon",
+    "editor.minimap.size": "fill"
 }
