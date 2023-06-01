@@ -42,6 +42,13 @@
     },
     "prettier.tabWidth": 4,
     "prettier.printWidth": 120,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "prettier.tabWidth": 2,
+        "editor.autoIndent": "advanced",
+        "gitlens.codeLens.scopes": ["document"]
+    },
     "html.format.indentInnerHtml": true,
     "html.format.unformatted": "",
     "editor.detectIndentation": true,
@@ -54,7 +61,7 @@
     "editor.fontLigatures": true,
     "eslint.packageManager": "yarn",
     "npm.packageManager": "yarn",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.unicodeHighlight.allowedCharacters": {
         "️": true
     },
@@ -91,5 +98,36 @@
     "gitlens.showWelcomeOnInstall": false,
     "gitlens.showWhatsNewAfterUpgrades": false,
     "gitlens.defaultGravatarsStyle": "identicon",
-    "editor.minimap.size": "fill"
+    "editor.minimap.size": "fill",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": false
+    },
+    "discord.removeRemoteRepository": true,
+    "discord.removeLowerDetails": true,
+    "discord.lowerDetailsIdling": "Being Lazy",
+    "discord.detailsIdling": "Being Lazy",
+    "discord.idleTimeout": 300,
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[proto3]": {
+        "editor.defaultFormatter": "zxh404.vscode-proto3"
+    },
+    "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+    "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "[csharp]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    },
+    "eslint.run": "onSave"
 }
