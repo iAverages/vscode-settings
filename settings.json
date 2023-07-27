@@ -97,8 +97,11 @@
     },
     "git.openRepositoryInParentFolders": "never",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1688027851689,
+    "php-cs-fixer.lastDownload": 1690280239371,
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
     }
 }
