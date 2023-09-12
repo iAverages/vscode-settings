@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+oem_7",
+        "command": "github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-extension.vim_ctrl+e",
+        "when": "editorTextFocus && vim.active && vim.use<C-e> && !inDebugRepl"
+    }
+]
