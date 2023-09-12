@@ -1,7 +1,6 @@
 {
     "terminal.integrated.defaultProfile.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "workbench.iconTheme": "Monokai Pro Icons",
-    "workbench.colorTheme": "Atom One Dark",
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#AB47BC",
         "activityBar.activeBorder": "#AB47BC",
@@ -68,7 +67,7 @@
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
-    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "files.associations": {
         "*.yml": "dockercompose"
     },
@@ -104,9 +103,11 @@
     },
     "github.copilot.enable": {
         "*": true,
-        "yaml": true,
         "plaintext": true,
-        "markdown": false
+        "markdown": false,
+        "scminput": false,
+        "yaml": true,
+        "rust": true
     },
     "discord.removeRemoteRepository": true,
     "discord.removeLowerDetails": true,
@@ -129,5 +130,48 @@
     "[csharp]": {
         "editor.defaultFormatter": "csharpier.csharpier-vscode"
     },
-    "eslint.run": "onSave"
+    "go.toolsManagement.autoUpdate": true,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "svelte.enable-ts-plugin": true,
+    "git.openRepositoryInParentFolders": "never",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["s", "v"], "commands": [":vsplit"] },
+        { "before": ["s", "s"], "commands": [":split"] },
+        {
+            "after": ["g", "g", "V", "G"],
+            "before": ["<c-a>"]
+        },
+        {
+            "after": ["\"", "_", "x"],
+            "before": ["x"]
+        },
+        {
+            "before": ["<c-space>"],
+            "after": ["<c-w>", "w"]
+        },
+        {
+            "before": ["s", "h"],
+            "after": ["<c-w>", "h"]
+        },
+        {
+            "before": ["s", "k"],
+            "after": ["<c-w>", "k"]
+        },
+        {
+            "before": ["s", "j"],
+            "after": ["<c-w>", "j"]
+        },
+        {
+            "before": ["s", "l"],
+            "after": ["<c-w>", "l"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "workbench.colorTheme": "Atom One Dark",
+    "window.commandCenter": false
 }
