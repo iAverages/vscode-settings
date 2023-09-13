@@ -1,5 +1,5 @@
 {
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.colorTheme": "Atom One Dark",
     "workbench.colorCustomizations": {
@@ -97,11 +97,46 @@
     },
     "git.openRepositoryInParentFolders": "never",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1690280239371,
+    "php-cs-fixer.lastDownload": 1694077215352,
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
     },
     "[sql]": {
         "editor.defaultFormatter": "mtxr.sqltools"
-    }
+    },
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "window.commandCenter": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["s", "v"], "commands": [":vsplit"] },
+        { "before": ["s", "s"], "commands": [":split"] },
+        {
+            "after": ["g", "g", "V", "G"],
+            "before": ["<c-a>"]
+        },
+        {
+            "after": ["\"", "_", "x"],
+            "before": ["x"]
+        },
+        {
+            "before": ["<c-space>"],
+            "after": ["<c-w>", "w"]
+        },
+        {
+            "before": ["s", "h"],
+            "after": ["<c-w>", "h"]
+        },
+        {
+            "before": ["s", "k"],
+            "after": ["<c-w>", "k"]
+        },
+        {
+            "before": ["s", "j"],
+            "after": ["<c-w>", "j"]
+        },
+        {
+            "before": ["s", "l"],
+            "after": ["<c-w>", "l"]
+        }
+    ],
+    "vim.leader": "<space>"
 }
