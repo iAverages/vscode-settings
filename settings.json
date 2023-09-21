@@ -97,7 +97,7 @@
     },
     "git.openRepositoryInParentFolders": "never",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1694077215352,
+    "php-cs-fixer.lastDownload": 1694682444709,
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
     },
@@ -138,5 +138,6 @@
             "after": ["<c-w>", "l"]
         }
     ],
-    "vim.leader": "<space>"
+    "vim.leader": "<space>",
+    "editor.lineNumbers": "relative"
 }
